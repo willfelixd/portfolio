@@ -10993,7 +10993,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .subtitle {
   font-size: calc(13px + (15 - 13) * ((100vw - 320px) / (1200 - 320)));
-  opacity: .8;
+  color: #008fa9;
 }
 
 @media (min-width: 992px) {
@@ -11077,7 +11077,7 @@ pre {
 }
 
 .img-wrapper .overlay {
-  background: rgba(255, 122, 87, 0.7);
+  background: rgba(0, 143, 169, 0.7);
   position: absolute;
   left: 0;
   bottom: 100%;

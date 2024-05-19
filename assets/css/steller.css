@@ -1,16 +1,4 @@
-/*!
-=========================================================
-* Steller Landing page
-=========================================================
 
-* Copyright: 2019 DevCRUD (https://devcrud.com)
-* Licensed: (https://devcrud.com/licenses)
-* Coded by www.devcrud.com
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
 :root {
   --blue: #79A9F5;
   --indigo: #C45F90;
@@ -3015,7 +3003,7 @@ fieldset:disabled a.btn {
 .btn-dark:hover {
   color: #343a40;
   background-color: #6c757d;
-  border-color: #1d2124;
+  border-color: #343a40;
 }
 
 .btn-dark:focus, .btn-dark.focus {
@@ -11421,7 +11409,7 @@ pre {
 }
 
 .page-footer {
-  background: #fcfdff;
+  background: #343a40;
 }
 
 .page-footer .row {
@@ -11522,9 +11510,11 @@ pre {
 .header .container .img-holder img {
   width: 300px;
   height: 300px;
-  border-radius: 50%;
-  border: 5px solid rgb(255, 255, 255);
-  
+  border: 4px inset rgb(255, 255, 255);
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
 }
 
 @media (max-width: 991.98px) {
@@ -11635,7 +11625,7 @@ pre {
 }
 
 .section:nth-child(even) {
-  background: white;
+  background: #343a40;
 }
 
 .section.bg-white {
@@ -11643,5 +11633,5 @@ pre {
 }
 
 .section.bg-gray {
-  background: white;
+  background: #343a40;
 }

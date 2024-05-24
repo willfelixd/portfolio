@@ -15,7 +15,7 @@
 Entre os dias 04 e 23 de maio de 2024, realizei a atividade prática de Desenvolvimento Web do módulo de Fundamentos e Arquitetura Web, referente a Pós Graduação em Desenvolvimento Web Full Stack que estou cursando na **_[Unipê](https://www.unipe.edu.br/)_**. Criei uma página web do meu portfólio, seguindo as orientações do **_[Prof. Daniel Brandão](https://www.instagram.com/ProfDanielBrandao/)_**.
 
 <p align="center">
-  <img width="250" height="250" src="https://github.com/willfelixd/portfolio/blob/main/assets/imgs/home.png" >
+  <img width="250" height="250" src="https://github.com/willfelixd/portfolio/blob/main/assets/imgs/qrcode.png" >
 </p>
 
 <p align="center">

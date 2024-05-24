@@ -19,7 +19,7 @@ Entre os dias 04 e 23 de maio de 2024, realizei a atividade prática de Desenvol
 </p>
 
 <p align="center">
-  <a href="https://github.com/willfelixd/portfolio">github.com/willfelixd/portfolio</a>
+  <a href="https://willfelixd.github.io/portfolio/">willfelixd.github.io/portfolio</a>
 </p>
 
 > - Melhora da experiência do usuário com Bootstrap

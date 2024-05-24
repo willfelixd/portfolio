@@ -15,11 +15,11 @@
 Entre os dias 04 e 23 de maio de 2024, realizei a atividade prática de Desenvolvimento Web do módulo de Fundamentos e Arquitetura Web, referente a Pós Graduação em Desenvolvimento Web Full Stack que estou cursando na **_[Unipê](https://www.unipe.edu.br/)_**. Criei uma página web do meu portfólio, seguindo as orientações do **_[Prof. Daniel Brandão](https://www.instagram.com/ProfDanielBrandao/)_**.
 
 <p align="center">
-  <img width="250" height="250" src="https://github.com/willfelixd/portfolio/blob/main/qrcode.png" >
+  <img width="250" height="250" src="https://github.com/willfelixd/portfolio/blob/main/assets/imgs/home.png" >
 </p>
 
 <p align="center">
-  <a href="https://github.com/willfelixd/portfolio/blob/main/qrcode.png">github.com/willfelixd/portfolio</a>
+  <a href="https://github.com/willfelixd/portfolio">github.com/willfelixd/portfolio</a>
 </p>
 
 > - Melhora da experiência do usuário com Bootstrap
@@ -37,7 +37,7 @@ Entre os dias 04 e 23 de maio de 2024, realizei a atividade prática de Desenvol
 > - Versionamento do repositório com Git e Github
 
 <p align="left">
-  <img width="500" height="320" src="https://github.com/willfelixd/portfolio/blob/main/home.png">
+  <img width="500" height="320" src="https://github.com/willfelixd/portfolio/blob/main/assets/imgs/home.png">
 </p>
 
 # Tecnologias Utilizadas
@@ -52,7 +52,7 @@ Entre os dias 04 e 23 de maio de 2024, realizei a atividade prática de Desenvol
  - CSS
 
 <p align="left">
-  <img width="500" height="320" src="https://github.com/willfelixd/portfolio/blob/main/contatos.png">
+  <img width="500" height="320" src="https://github.com/willfelixd/portfolio/blob/main/assets/imgs/contatos.png">
 </p>
 
 # Links Úteis

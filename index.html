@@ -123,7 +123,7 @@
                 <div class="col-sm-6 col-md-3 mb-4">
                     <div class="custom-card card border">
                         <div class="card-body">
-                            <i class="icon ti-settings"></i>
+                            <a href="javascript:void(0)" data-toggle="modal" data-target="#imageModalback"><i class="icon ti-settings"></i></a>
                             <h5>Back-end</h5>
                         </div>
                     </div>
@@ -131,7 +131,7 @@
                 <div class="col-sm-6 col-md-3 mb-4">
                     <div class="custom-card card border">
                         <div class="card-body">
-                            <i class="icon ti-desktop"></i>
+                            <a href="javascript:void(0)" data-toggle="modal" data-target="#imageModalfront"><i class="icon ti-desktop"></i></a>
                             <h5>Front-end</h5>
                         </div>
                     </div>
@@ -139,17 +139,87 @@
                 <div class="col-sm-6 col-md-3 mb-4">
                     <div class="custom-card card border">
                         <div class="card-body">
-                            <i class="icon ti-android"></i>
-                            <h5>App Design</h5>
+                            <a href="javascript:void(0)" data-toggle="modal" data-target="#imageModalapp"><i class="icon ti-android"></i></a>
+                            <h5>Mobile</h5>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-3 mb-4">
                     <div class="custom-card card border">
                         <div class="card-body">
-                            <i class="icon ti-server"></i>
+                            <a href="javascript:void(0)" data-toggle="modal" data-target="#imageModalbanco"><i class="icon ti-server"></i></a>
                             <h5>Banco de dados</h5>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade " id="imageModalback" tabindex="-1" role="dialog" aria-labelledby="imageModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="container text-center" id="imageModalLabel">Back-end</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Como o próprio nome sugere, o Back-end compreende tudo aquilo que tem por trás de uma aplicação.
+                            Pode ficar meio abstrato num primeiro momento, mas pense na seguinte situação: para você usar o Instagram todos os dias, os dados (as informações) do seu perfil, de suas amizades e de suas publicações precisam estar salvos e processados em um banco de dados.
+                            Sendo assim, as pessoas desenvolvedoras de Back-end trabalham principalmente para fazer uma ponte entre os dados do navegador rumo ao banco de dados e vice-versa.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade " id="imageModalfront" tabindex="-1" role="dialog" aria-labelledby="imageModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="container text-center" id="imageModalLabel">Front-end</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>De forma geral, o Front-end compreende a parte visual de sites e aplicações. Ou seja, a área das páginas em que as pessoas podem interagir.
+                            Isso significa que o Front-end se relaciona com as partes dos sites que mais se aproximam da pessoa usuária.
+                            Sendo assim, as pessoas que trabalham com Front-end são responsáveis por desenvolver uma interface gráfica através de tecnologias bases da Web: HTML, CSS
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade " id="imageModalapp" tabindex="-1" role="dialog" aria-labelledby="imageModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="container text-center" id="imageModalLabel">Mobile</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Programação mobile é fazer qualquer tipo de desenvolvimento para qualquer tipo de dispositivo móvel. Em suma, o desenvolvimento móvel engloba o desenvolvimento
+                             de aplicativos para smartphones, tablets, smartwatches e todos os outros tipos de dispositivos wearables que executam algum tipo de sistema operacional móvel.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade " id="imageModalbanco" tabindex="-1" role="dialog" aria-labelledby="imageModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="container text-center" id="imageModalLabel">Banco de dados</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Um banco de dados é uma coleção organizada de informações - ou dados - estruturadas, normalmente armazenadas eletronicamente em um sistema de computador. 
+                            Um banco de dados é geralmente controlado por um sistema de gerenciamento de banco de dados (DBMS).
+                        </p>
                     </div>
                 </div>
             </div>
@@ -204,12 +274,12 @@
             <div class="row">
                 <div class="col-sm-4">
                     <div class="img-wrapper">
-                        <img src="assets/imgs/folio-1.jpg" alt="">
+                        <img src="assets/imgs/dsmovie.png" alt="">
                         <div class="overlay">
                             <div class="overlay-infos">
-                                <h5>Título do projeto</h5>
-                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
-                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
+                                <h5>DSMovie</h5>
+                                <a href="javascript:void(0)" data-toggle="modal" data-target="#imageModal"><i class="ti-zoom-in"></i></a>
+                                <a href="https://willfelixd.github.io/dsmovie/" target="_blank"><i class="ti-link"></i></a>
                             </div>  
                         </div>
                     </div>
@@ -218,8 +288,8 @@
                         <div class="overlay">
                             <div class="overlay-infos">
                                 <h5>Título do projeto</h5>
-                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
-                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
+                                <a href="javascript:void(0)" data-toggle="modal" data-target="#imageModal2"><i class="ti-zoom-in"></i></a>
+                                <a href="javascript:void(0)" target="_blank"><i class="ti-link"></i></a>
                             </div>                              
                         </div>
                     </div>                  
@@ -230,8 +300,8 @@
                         <div class="overlay">
                             <div class="overlay-infos">
                                 <h5>Título do projeto</h5>
-                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
-                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
+                                <a href="javascript:void(0)" data-toggle="modal" data-target="#imageModal3"><i class="ti-zoom-in"></i></a>
+                                <a href="javascript:void(0)" target="_blank"><i class="ti-link"></i></a>
                             </div>  
                         </div>
                     </div>
@@ -240,8 +310,8 @@
                         <div class="overlay">
                             <div class="overlay-infos">
                                 <h5>Título do projeto</h5>
-                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
-                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
+                                <a href="javascript:void(0)" data-toggle="modal" data-target="#imageModal4"><i class="ti-zoom-in"></i></a>
+                                <a href="javascript:void(0)" target="_blank"><i class="ti-link"></i></a>
                             </div>                              
                         </div>
                     </div>                  
@@ -252,8 +322,8 @@
                         <div class="overlay">
                             <div class="overlay-infos">
                                 <h5>Título do projeto</h5>
-                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
-                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
+                                <a href="javascript:void(0)" data-toggle="modal" data-target="#imageModal5"><i class="ti-zoom-in"></i></a>
+                                <a href="javascript:void(0)" target="_blank"><i class="ti-link"></i></a>
                             </div>  
                         </div>
                     </div>
@@ -262,14 +332,106 @@
                         <div class="overlay">
                             <div class="overlay-infos">
                                 <h5>Título do projeto</h5>
-                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
-                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
+                                <a href="javascript:void(0)" data-toggle="modal" data-target="#imageModal6"><i class="ti-zoom-in"></i></a>
+                                <a href="javascript:void(0)" target="_blank"><i class="ti-link"></i></a>
                             </div>                              
                         </div>
                     </div>                  
                 </div>
             </div>
-
+     <!-- Modal -->
+    <div class="modal fade " id="imageModal" tabindex="-1" role="dialog" aria-labelledby="imageModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="container text-center" id="imageModalLabel">DSMovie🎬</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="assets/imgs/dsmovie_videoapresentacao.gif" id="modalImage" class="img-fluid" alt="Imagem do Projeto">
+                    <p>Durante os dias 7 e 13 de março de 2022 participei da semana Spring React, que foi promovida pela DevSuperior - escola de programação. Desenvolvi o projeto da trilha para iniciantes do catálogo de filmes, seguindo as orientações do professor Nelio Alves.</p>
+                </div>
+            </div>
+        </div>
+    </div>    
+    <div class="modal fade" id="imageModal2" tabindex="-1" role="dialog" aria-labelledby="imageModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="imageModalLabel">Imagem do Projeto</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="assets/imgs/folio-2.jpg" id="modalImage" class="img-fluid" alt="Imagem do Projeto">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="imageModal3" tabindex="-1" role="dialog" aria-labelledby="imageModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="imageModalLabel">Imagem do Projeto</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="assets/imgs/folio-3.jpg" id="modalImage" class="img-fluid" alt="Imagem do Projeto">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="imageModal4" tabindex="-1" role="dialog" aria-labelledby="imageModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="imageModalLabel">Imagem do Projeto</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="assets/imgs/folio-4.jpg" id="modalImage" class="img-fluid" alt="Imagem do Projeto">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="imageModal5" tabindex="-1" role="dialog" aria-labelledby="imageModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="imageModalLabel">Imagem do Projeto</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="assets/imgs/folio-5.jpg" id="modalImage" class="img-fluid" alt="Imagem do Projeto">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="imageModal6" tabindex="-1" role="dialog" aria-labelledby="imageModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="imageModalLabel">Imagem do Projeto</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="assets/imgs/folio-6.jpg" id="modalImage" class="img-fluid" alt="Imagem do Projeto">
+                </div>
+            </div>
+        </div>
+    </div>
+       
         </div>
     </section>
     <!-- End of portfolio section -->
